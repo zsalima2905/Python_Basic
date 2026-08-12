@@ -1,4 +1,4 @@
-# A number is divisible by 3, 5, both, or neither
+# Check a number is divisible by 3, 5, both, or neither
 x=15
 if(x%3==0 and x%5==0):
     print("x is div by 3 and 5")
@@ -9,23 +9,21 @@ elif(x%5==0):
 else:
     print("Neither div by 3 & 5")
 
-
-
-#Div by 5- print fizz, or else print buzz
+## Check if a number is divisible by 5; print "fizz" or else print "buzz"
 x=7
 if(x%5==0):
     print("fizz")
 else:
     print("buzz")
 
-#Number is positive
+#Check the number is positive
 x=5
 if(x>0):
     print("Positive Number")
 else:
     print("Not a positive number")
 
-#Eligible to vote or not
+#Check whether Eligible to vote or not
 v=15
 if(v>18):
     print("Eligible to vote")
@@ -35,19 +33,17 @@ g=500
 if(g>100):
     print("g is greater than 100")
 
-#Divisible by 5
+#Check whether the number is Divisible by 5
 d= 6
 if(d%5==0):
     print("Divisible by 5")
 
-
-#Student has passed
+#Check Student has passed
 sp= 45
 if(sp>40):
     print("Student has passed")
 
-
-#Number is even or odd
+#Check the Number is even or odd
 x= 0
 if(x==0):
     print("Neither Even nor odd")
@@ -56,8 +52,7 @@ elif(x%2==0):
 else:
     print("odd")
 
-
-#Larger of two numbers
+#Check Larger of two numbers
 s=10
 l=100
 if(s==l):
@@ -67,15 +62,14 @@ elif(s>l):
 else:
     print("l is larger")
 
-#Adult or minor
+#Check Adult or minor
 a=29
 if(a>=18):
     print("Adult")
 else:
     print("Minor")
 
-
-#Positive or negative
+#Check the number: Positive or negative
 n=0
 if(n==0):
     print("Neither positive nor negative")
@@ -103,12 +97,12 @@ elif(mark>=50 and mark<=74):
 elif(mark<50):
     print("Fail")
 
+# Check if the given day is a weekday or weekend.
 input = "Monday"
 if(input=="Monday" or input=="Tuesday" or input=="wednesday" or input=="thursday" or input=="friday"):
     print("weekday")
 else:
     print("weekend")
-
 
 #Check temp
 climate= 20
@@ -118,7 +112,6 @@ elif(climate>=20 and climate<=35):
     print("Pleasant")
 elif(climate<20):
     print("Cold")
-
 
 #Determine tickect price
 age= 30
@@ -138,7 +131,6 @@ if(enteruserName==username and enteredPassword==password):
     print("Login successfully")
 else:
     print("Login failed")
-
 
 #find largest of three
 a = 10
@@ -161,8 +153,6 @@ if(character=="a" or character=="e" or character=="i" or character=="o" or chara
 else:
     print("consonant")
 
-
-
 #BMI classification
 weight= 80000
 height= 80
@@ -176,8 +166,5 @@ elif(BMI<30):
     print("Overweight")
 else:
     print("Obese")
-
-
-
 
 
